@@ -1,0 +1,69 @@
+src/
+├─ app/
+│  ├─ layout.js          # Layout global
+│  ├─ page.js            # Landing page
+│  ├─ page.module.css     # Styling khusus landing page
+│  ├─ auth/
+│  │  ├─ login.js
+│  │  ├─ login.module.css
+│  │  ├─ register.js
+│  │  ├─ register.module.css
+│  │  └─ resetPassword.js
+│  │      └─ resetPassword.module.css
+│  ├─ dashboard.js
+│  ├─ dashboard.module.css
+│  ├─ editor.js           # Halaman editor CV
+│  ├─ editor.module.css
+│  ├─ improveCv.js
+│  ├─ improveCv.module.css
+│  ├─ jobs.js
+│  ├─ jobs.module.css
+│  ├─ courses.js
+│  ├─ courses.module.css
+│  ├─ admin.js
+│  ├─ admin.module.css
+│  ├─ maintenance.js
+│  ├─ maintenance.module.css
+│  └─ extra/             # Halaman informasi umum (buat footer link)
+│     ├─ about.js
+│     ├─ about.module.css
+│     ├─ faq.js
+│     ├─ faq.module.css
+│     ├─ pricing.js
+│     ├─ pricing.module.css
+│     └─ preview.js
+│         └─ preview.module.css
+│
+├─ components/
+│  ├─ EditorForm.js
+│  ├─ CVPreview.js
+│  ├─ Navbar.js
+│  ├─ Footer.js
+│  ├─ Navbar.module.css
+│  ├─ Footer.module.css
+│  ├─ forms/             # Subkomponen form editor
+│  │  ├─ PersonalInfoForm.js
+│  │  ├─ SummaryForm.js
+│  │  ├─ ExperienceForm.js
+│  │  ├─ EducationForm.js
+│  │  ├─ SkillsForm.js
+│  │  ├─ CertificationsForm.js
+│  │  ├─ LanguagesForm.js
+│  │  ├─ ProjectsForm.js
+│  │  └─ VolunteerForm.js
+│  └─ ui/                # Komponen UI kecil
+│     ├─ Button.js
+│     ├─ Modal.js
+│     └─ Card.js
+│
+├─ lib/
+│  ├─ firebase.js
+│  ├─ openai.js
+│  └─ utils.js
+│
+├─ styles/
+│  └─ globals.css        # Theme global, typography, warna, dll
+│
+└─ config/
+   ├─ routes.js          # Definisi semua rute halaman
+   └─ roles.js           # Role: user, admin, recruiter, super admin
