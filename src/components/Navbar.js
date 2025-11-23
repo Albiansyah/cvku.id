@@ -131,8 +131,6 @@ export default function Navbar() {
   // Nav utama
   const navLinks = [
     { href: "/improveCv", label: "Perbaiki CV", icon: Zap },
-    { href: "/jobs", label: "Lowongan", icon: Briefcase },
-    { href: "/courses", label: "Kursus", icon: GraduationCap },
     { href: "/pricing", label: "Harga", icon: Crown },
   ];
 
